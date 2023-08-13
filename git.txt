@@ -1,0 +1,34 @@
+**after installing new git**
+
+git version
+
+*to connect with github-
+
+git config --global user.name username of github
+git config --global user.email email address of github
+
+*pull something from github repository to blank folder
+
+git init
+git remote add origin repository link
+git branch -m main
+git pull origin main
+
+*push something to new repository
+
+-first time
+git init
+git remote add origin repository link
+git branch -m main
+git add .['.'to add all]
+git commit -m message
+git status [to check commited items or staged items]
+git push -u origin main
+
+*to checkout branch
+
+git branch[to check current branch]
+git checkout branch name
+git merge branch name[to merge with current branch]
+git branch -d branch name[to delete branch]
+
